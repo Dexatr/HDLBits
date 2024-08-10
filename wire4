@@ -1,0 +1,17 @@
+module top_module( 
+    input a,b,c,
+    output w,x,y,z );
+
+    wire wire1, wire2, wire3, wire4;
+    
+    assign wire1 = a;
+    assign wire2 = b;
+    assign wire3 = b;
+    assign wire4 = c;
+    
+    assign w = wire1;
+    assign x = wire2;
+    assign y = wire3;
+    assign z = wire4;
+    
+endmodule
