@@ -2,7 +2,7 @@ module top_module(
     input [31:0] a,
     input [31:0] b,
     input sub,
-    output [31:0] result
+    output [31:0] sum
 );
 	//An XOR gate can also be viewed as a programmable inverter, where one input controls whether
     //the other should be inverted. 
