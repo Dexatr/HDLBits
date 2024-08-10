@@ -1,0 +1,19 @@
+`default_nettype none
+module top_module(
+    input a,
+    input b,
+    input c,
+    input d,
+    output out,
+    output out_n   );
+    
+    wire ab, cd, or_abcd;
+    
+    assign ab = a & b;
+    assign cd = c & d;
+    assign or_abcd = ab | cd;
+    
+    assign out = or_abcd;
+    assign out_n = ~or_abcd;
+
+endmodule
