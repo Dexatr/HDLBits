@@ -2,11 +2,7 @@ module top_module(
     input a, 
     input b, 
     output out );
+    
+    assign out = a & b;
 
-    wire wire1;
-    
-    assign wire1 = a ^ b;
-    
-    assign out = ~wire1;
-    
 endmodule
